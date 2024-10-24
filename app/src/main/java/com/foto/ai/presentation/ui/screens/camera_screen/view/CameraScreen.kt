@@ -1,4 +1,4 @@
-package com.foto.ai.presentation.ui.screens.camera_screen
+package com.foto.ai.presentation.ui.screens.camera_screen.view
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement

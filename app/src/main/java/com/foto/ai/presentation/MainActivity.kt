@@ -30,7 +30,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.foto.ai.R
 import com.foto.ai.presentation.ui.screens.Screen
-import com.foto.ai.presentation.ui.screens.camera_screen.CameraScreen
+import com.foto.ai.presentation.ui.screens.camera_screen.view.CameraScreen
 import com.foto.ai.presentation.ui.screens.landing_screen.LandingScreen
 import com.foto.ai.presentation.ui.screens.login_screen.LoginScreen
 import com.foto.ai.presentation.ui.screens.offers_screen.OffersScreen

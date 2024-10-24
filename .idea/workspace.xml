@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2685148b-ff8c-4a37-82cb-f1246f61d631" name="Changes" comment="" />
+    <list default="true" id="2685148b-ff8c-4a37-82cb-f1246f61d631" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foto/ai/presentation/ui/screens/camera_screen/CameraEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foto/ai/presentation/ui/screens/camera_screen/CameraState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foto/ai/presentation/ui/screens/camera_screen/CameraViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/foto/ai/presentation/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/foto/ai/presentation/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/foto/ai/presentation/ui/screens/camera_screen/CameraScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/foto/ai/presentation/ui/screens/camera_screen/view/CameraScreen.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +83,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
@@ -140,11 +147,11 @@
       <recent name="com.foto.ai.data.room.dto" />
     </key>
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="com.foto.ai.presentation.ui.screens.camera_screen.view" />
       <recent name="com.foto.ai.data.room.dao" />
       <recent name="com.foto.ai.domain.model" />
       <recent name="com.foto.ai.domain.model.offer" />
       <recent name="com.foto.ai.domain.repository" />
-      <recent name="com.foto.ai.data.retrofit.dto" />
     </key>
   </component>
   <component name="RunManager">
