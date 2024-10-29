@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.BottomAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -25,11 +26,13 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.foto.ai.R
 import com.foto.ai.presentation.ui.screens.Screen
+import com.foto.ai.presentation.ui.screens.camera_screen.CameraViewModel
 import com.foto.ai.presentation.ui.screens.camera_screen.view.CameraScreen
 import com.foto.ai.presentation.ui.screens.landing_screen.LandingScreen
 import com.foto.ai.presentation.ui.screens.login_screen.LoginScreen
@@ -86,7 +89,8 @@ class MainActivity : ComponentActivity() {
                                     }) {
                                     Icon(
                                         painter = painterResource(R.drawable.icon_google),
-                                        contentDescription = "Menu"
+                                        contentDescription = "Menu",
+                                        modifier = Modifier.size(48.dp).padding(6.dp)
                                     )
                                 }
                             }
@@ -109,7 +113,7 @@ class MainActivity : ComponentActivity() {
                 ) { innerPadding ->
                     NavHost(
                         navController = navController,
-                        startDestination = Screen.LandingScreen.route
+                        startDestination = Screen.CameraScreen.route
                     ) {
                         composable(route = Screen.LandingScreen.route) {
                             currentScreen = it.destination.route.toString()
@@ -142,7 +146,11 @@ class MainActivity : ComponentActivity() {
                         }
 
                         composable(route = Screen.CameraScreen.route) {
-                            CameraScreen(Modifier.padding(innerPadding))
+                            val viewModel: CameraViewModel = hiltViewModel()
+                            CameraScreen(
+                                modifier = Modifier.padding(innerPadding),
+                                viewModel = viewModel
+                            )
                         }
                     }
                 }

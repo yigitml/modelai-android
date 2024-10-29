@@ -8,16 +8,6 @@ import coil.compose.AsyncImage
 import coil.request.ImageRequest
 
 @Composable
-fun NetworkImage(modifier: Modifier = Modifier, url: String, contentScale: ContentScale, contentDescription: String? = null) {
-    AsyncImage(
-        model = url,
-        contentScale = contentScale,
-        contentDescription = contentDescription,
-        modifier = modifier
-    )
-}
-
-@Composable
 fun ResourceImage(
     modifier: Modifier = Modifier,
     resourceId: Int,
