@@ -1,8 +1,8 @@
 package com.foto.ai.domain.use_case.get_photos
 
 import com.foto.ai.data.repository.PhotoRepositoryImpl
-import com.foto.ai.data.retrofit.dto.photo.toPhotoDtoList
-import com.foto.ai.data.retrofit.dto.photo.toPhotoList
+import com.foto.ai.data.retrofit.photo.toPhotoDtoList
+import com.foto.ai.data.retrofit.photo.toPhotoList
 import com.foto.ai.domain.model.Photo
 import com.foto.ai.util.Resource
 import kotlinx.coroutines.flow.Flow

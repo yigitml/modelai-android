@@ -1,7 +1,7 @@
 package com.foto.ai.domain.use_case.get_models
 
 import com.foto.ai.data.repository.ModelRepositoryImpl
-import com.foto.ai.data.retrofit.dto.model.toModelDtoList
+import com.foto.ai.data.retrofit.model.toModelDtoList
 import com.foto.ai.data.room.dto.toModel
 import com.foto.ai.domain.model.Model
 import com.foto.ai.util.Resource

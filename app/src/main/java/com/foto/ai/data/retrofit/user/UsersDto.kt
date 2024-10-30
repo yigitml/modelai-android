@@ -1,4 +1,4 @@
-package com.foto.ai.data.retrofit.dto.user
+package com.foto.ai.data.retrofit.user
 
 import com.foto.ai.data.room.dto.UserDto
 import com.foto.ai.domain.model.User

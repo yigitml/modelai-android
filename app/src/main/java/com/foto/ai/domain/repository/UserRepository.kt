@@ -1,6 +1,6 @@
 package com.foto.ai.domain.repository
 
-import com.foto.ai.data.retrofit.dto.user.UsersDtoItem
+import com.foto.ai.data.retrofit.user.UsersDtoItem
 import com.foto.ai.data.room.dto.UserDto
 
 interface UserRepository {

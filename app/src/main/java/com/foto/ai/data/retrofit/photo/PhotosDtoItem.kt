@@ -1,4 +1,4 @@
-package com.foto.ai.data.retrofit.dto.photo
+package com.foto.ai.data.retrofit.photo
 
 data class PhotosDtoItem(
     val id: String,

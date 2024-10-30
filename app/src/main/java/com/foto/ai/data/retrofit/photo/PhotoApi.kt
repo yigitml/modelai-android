@@ -1,7 +1,5 @@
-package com.foto.ai.data.retrofit
+package com.foto.ai.data.retrofit.photo
 
-import com.foto.ai.data.retrofit.dto.photo.PhotosDto
-import com.foto.ai.data.retrofit.dto.photo.PhotosDtoItem
 import retrofit2.http.GET
 import retrofit2.http.Query
 

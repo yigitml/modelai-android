@@ -110,6 +110,9 @@ dependencies {
     // Coil
     implementation(libs.coil.compose)
 
+    // DataStore
+    implementation(libs.androidx.datastore.preferences)
+
     // Admob
     // implementation(libs.play.services.ads)
 }

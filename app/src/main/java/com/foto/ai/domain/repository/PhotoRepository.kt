@@ -1,7 +1,7 @@
 package com.foto.ai.domain.repository
 
-import com.foto.ai.data.retrofit.dto.photo.PhotosDto
-import com.foto.ai.data.retrofit.dto.photo.PhotosDtoItem
+import com.foto.ai.data.retrofit.photo.PhotosDto
+import com.foto.ai.data.retrofit.photo.PhotosDtoItem
 import com.foto.ai.data.room.dto.PhotoDto
 
 interface PhotoRepository {

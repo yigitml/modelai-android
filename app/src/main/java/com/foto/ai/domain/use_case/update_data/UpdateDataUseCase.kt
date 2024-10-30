@@ -2,8 +2,8 @@ package com.foto.ai.domain.use_case.update_data
 
 import com.foto.ai.data.repository.ModelRepositoryImpl
 import com.foto.ai.data.repository.UserRepositoryImpl
-import com.foto.ai.data.retrofit.dto.model.toModelDtoList
-import com.foto.ai.data.retrofit.dto.user.toUserDto
+import com.foto.ai.data.retrofit.model.toModelDtoList
+import com.foto.ai.data.retrofit.user.toUserDto
 import com.foto.ai.util.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

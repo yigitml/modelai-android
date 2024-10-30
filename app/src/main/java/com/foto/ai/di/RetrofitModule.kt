@@ -1,9 +1,10 @@
 package com.foto.ai.di
 
-import com.foto.ai.data.retrofit.ModelApi
-import com.foto.ai.data.retrofit.PhotoApi
-import com.foto.ai.data.retrofit.UserApi
-import com.foto.ai.util.RetrofitConstants
+import com.foto.ai.data.retrofit.auth.AuthApi
+import com.foto.ai.data.retrofit.model.ModelApi
+import com.foto.ai.data.retrofit.photo.PhotoApi
+import com.foto.ai.data.retrofit.user.UserApi
+import com.foto.ai.util.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -19,9 +20,14 @@ object RetrofitModule {
     @Singleton
     fun provideRetrofit(): Retrofit =
         Retrofit.Builder()
-            .baseUrl(RetrofitConstants.BASE_URL)
+            .baseUrl(Constants.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
+
+    @Provides
+    @Singleton
+    fun provideAuthApi(retrofit: Retrofit): AuthApi =
+        retrofit.create(AuthApi::class.java)
 
     @Provides
     @Singleton

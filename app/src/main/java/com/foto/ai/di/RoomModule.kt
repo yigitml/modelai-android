@@ -3,7 +3,7 @@ package com.foto.ai.di
 import android.content.Context
 import androidx.room.Room
 import com.foto.ai.data.room.ApplicationDatabase
-import com.foto.ai.util.RoomConstants
+import com.foto.ai.util.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -20,7 +20,7 @@ object RoomModule {
         Room.databaseBuilder(
             context,
             ApplicationDatabase::class.java,
-            RoomConstants.DB_NAME
+            Constants.DB_NAME
         ).fallbackToDestructiveMigrationFrom().build()
 
     @Provides

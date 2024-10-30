@@ -1,7 +1,7 @@
 package com.foto.ai.domain.use_case.get_user
 
 import com.foto.ai.data.repository.UserRepositoryImpl
-import com.foto.ai.data.retrofit.dto.user.toUserDto
+import com.foto.ai.data.retrofit.user.toUserDto
 import com.foto.ai.data.room.dto.toUser
 import com.foto.ai.domain.model.User
 import com.foto.ai.util.Resource

@@ -1,8 +1,8 @@
 package com.foto.ai.data.repository
 
-import com.foto.ai.data.retrofit.PhotoApi
-import com.foto.ai.data.retrofit.dto.photo.PhotosDto
-import com.foto.ai.data.retrofit.dto.photo.PhotosDtoItem
+import com.foto.ai.data.retrofit.photo.PhotoApi
+import com.foto.ai.data.retrofit.photo.PhotosDto
+import com.foto.ai.data.retrofit.photo.PhotosDtoItem
 import com.foto.ai.data.room.dao.PhotoDao
 import com.foto.ai.data.room.dto.PhotoDto
 import com.foto.ai.domain.repository.PhotoRepository

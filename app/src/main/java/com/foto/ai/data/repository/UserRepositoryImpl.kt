@@ -1,7 +1,7 @@
 package com.foto.ai.data.repository
 
-import com.foto.ai.data.retrofit.UserApi
-import com.foto.ai.data.retrofit.dto.user.UsersDtoItem
+import com.foto.ai.data.retrofit.user.UserApi
+import com.foto.ai.data.retrofit.user.UsersDtoItem
 import com.foto.ai.data.room.dao.UserDao
 import com.foto.ai.data.room.dto.UserDto
 import com.foto.ai.domain.repository.UserRepository
